@@ -9,4 +9,5 @@ Repo that holds course notes, work, and projects for TC1003.B
 - Name the files so they are self-explanatory
 - Document code PLEASE (at least put what it does)
 - Write nickname of author as the first line of code
-
+-----
+## DO NOT COPY & PASTE THE SCRIPTS
