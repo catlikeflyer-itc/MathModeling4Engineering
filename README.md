@@ -6,3 +6,7 @@ Repo that holds course notes, work, and projects for TC1003.B
 - Pull the repository before making any commits
 - Include nickname when commiting
 - Please try and avoid issues, track them before pushing if possible
+
+# Directories
+- Find notes and relevant code for each topic stated as a directory
+- `/lifes_easier` holds not-needed scripts that will simplify your life
