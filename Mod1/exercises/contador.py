@@ -86,13 +86,12 @@ def ej_c():
         for element_Bc in B_comp:
             if (element_A == element_Bc):
                 Bc_A.add(element_A)
+    Bc_A = list(Bc_A)
     for element_C in init_C(init_N()):
         for element_BcA in Bc_A:
             if (element_C == element_BcA):
-                continue
-            else:
-                Bc_A_C.add(element_BcA)
-    Bc_A_C = list(Bc_A_C)
+                Bc_A.remove(element_C)
+    Bc_A_C = list(Bc_A)
     Bc_A_C.sort()
     return Bc_A_C
 
